@@ -103,6 +103,9 @@ nav ul li{
 body{
     background-image: url("../imagenes/fc28c55f-ec9a-4c04-9cff-c4ce4a3ff033.jpg");
     background-size: cover;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh; 
 }
 
 footer{
@@ -111,6 +114,7 @@ footer{
     height: 100px;
     width: 100%;
     padding-top: 35px;
+    min-height:50px; 
 }
 
 footer div a{
